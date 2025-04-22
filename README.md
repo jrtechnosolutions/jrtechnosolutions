@@ -1,4 +1,4 @@
-# 🧠 JR Techno Solutions
+# 🧠 JR Techno Solutions (Founder: Javier Rondon)
 
 **Driving productivity through AI, multi-agent systems, and intelligent data solutions.**
 
