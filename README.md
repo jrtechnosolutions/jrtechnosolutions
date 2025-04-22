@@ -1,44 +1,57 @@
-# 🧠 JR Techno Solutions
+from pathlib import Path
 
-**Empowering innovation through AI, automation, and data analytics.**
+# Contenido del README.md actualizado con el proyecto adicional JRYOLO
+readme_final_content = """# 🧠 JR Techno Solutions
 
-At JR Techno Solutions, we design and implement cutting-edge solutions to optimize organizational productivity and enable scalable impact through artificial intelligence, automation, and intelligent data integration.
+**Driving productivity through AI, multi-agent systems, and intelligent data solutions.**
+
+At JR Techno Solutions, we design, develop, and deploy advanced AI systems to help organizations enhance decision-making, automate workflows, and extract powerful insights from data. Our solutions are grounded in deep experience across artificial intelligence, machine learning, generative AI, and data analytics.
 
 ---
 
-## 💡 What We Do
+## 💡 Core Expertise
 
 We specialize in:
 
-- 🤖 **AI-Powered Agents**: Intelligent workflows that automate business tasks through natural language and multi-agent collaboration.
-- 🧠 **Computer Vision**: Real-time object recognition, facial detection, and visual analytics for smart decision-making.
-- 📊 **Data Analytics & Dashboards**: From raw data to actionable insights using modern visualization tools.
-- 🩺 **Mental Health Technology**: Tools that support well-being and emotional resilience for healthcare professionals and organizations.
+- 🤖 **AI & Multi-Agent Systems**: Orchestrating intelligent agents that automate workflows, manage tasks, and communicate naturally through language models and contextual memory.
+- 🧠 **Deep Learning & Computer Vision**: Real-time facial recognition, object detection, and video analysis using OpenCV, YOLO, and PyTorch.
+- 🧩 **Generative AI & LLMs**: Implementing large language models to power conversational interfaces, decision engines, and dynamic content generation.
+- 📊 **Data Analytics & Visualization**: Creating dashboards, metrics, and storytelling pipelines that turn raw data into strategic value.
+- ⚙️ **Applied AI for Productivity**: Custom systems that automate manual operations and reduce cognitive load through intelligent augmentation.
 
 ---
 
-## 🚀 Featured Projects
+## 🚀 Flagship Projects
 
 ### 🔹 [AI Executive Agents Ecosystem](https://jarondonp.github.io/portafolio)
-A multi-agent automation system integrating email, calendar, search, and task management through AI-driven workflows in n8n and Telegram.
+Multi-agent automation system coordinating email, calendar, and task workflows with OpenAI, LangChain, and n8n.
 
 ### 🔹 [Airbnb Travel Agent AI](https://jarondonp.github.io/portafolio)
-Context-aware travel assistant using OpenRouter and MCP tools to plan dynamic Airbnb trips through natural language.
+Context-aware agent for dynamic Airbnb planning using OpenRouter, memory buffers, and MCP APIs.
 
-### 🔹 [Computer Vision Applications](https://jarondonp.github.io/portafolio)
-Includes real-time face detection, image processing labs, and YOLO-based applications for detection, segmentation, and model training.
+### 🔹 [Advanced Face Detection & Analysis](https://jarondonp.github.io/portafolio)
+Streamlit app for real-time facial feature detection and analysis using OpenCV and deep neural networks.
+
+### 🔹 [Computer Vision Lab](https://jarondonp.github.io/portafolio)
+Interactive visual processing lab with filtering, edge detection, morphological operations, and thresholding.
+
+### 🔹 [AI Conversation Agent](https://jarondonp.github.io/portafolio)
+Conversational agent using OpenAI + n8n for sentiment analysis, contextual memory, and multi-turn interactions.
+
+### 🔹 [JRYOLO – Computer Vision with YOLO](https://jarondonp.github.io/portafolio)
+Full-featured web app for object detection, segmentation, pose estimation, and training of custom YOLO models using a user-friendly interface.
 
 ---
 
 ## 🌍 Vision
 
-To revolutionize organizational productivity globally through educational technologies, data integration platforms, and artificial intelligence.
+To revolutionize organizational productivity through applied AI, intelligent agents, and powerful data solutions.
 
 ---
 
 ## 🎯 Mission
 
-To optimize our clients' productivity with passion, creativity, and innovative solutions.
+To empower professionals and organizations with cutting-edge AI systems that simplify complexity, unlock efficiency, and accelerate innovation.
 
 ---
 
@@ -50,4 +63,11 @@ To optimize our clients' productivity with passion, creativity, and innovative s
 
 ---
 
-> “We build smart tools to empower real people with real needs.”
+> “We build intelligent systems that turn data and AI into productivity.”  
+"""
+
+# Guardar la versión final
+readme_final_path = Path("/mnt/data/README.md")
+readme_final_path.write_text(readme_final_content)
+
+readme_final_path.name
